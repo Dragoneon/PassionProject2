@@ -1,0 +1,36 @@
+/* Base Format */
+body {
+  background: url('bckgrnd2.jpg') fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+.logo {
+  width: 90px;
+  length: 90px;
+}
+.nav {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+}
+.nav ul {
+  list-style-type: none;
+}
+.nav li {
+  display: inline-block;
+  margin-right: 5%;
+  padding: 10px;
+}
+.nav a:link, a:visited, a:hover, a:active {
+  color: white;
+  text-decoration: none;
+}
+.nav li:hover {
+  color: black;
+}
+/* Base Format */

@@ -1,3 +1,4 @@
+/* Base Format */
 body {
   background: url('bckgrnd2.jpg') fixed;
   background-repeat: no-repeat;
@@ -15,12 +16,13 @@ body {
   font-size: 20px;
   display: block;
   color: white;
+  text-align: center;
 }
 .nav ul {
   list-style-type: none;
 }
 .nav li {
-  float: right;
+  display: inline-block;
   margin-right: 5%;
   padding: 10px;
 }
@@ -31,6 +33,7 @@ body {
 .nav li:hover {
   color: black;
 }
+/* Base Format */
 .motto {
   color: white;
   text-align: center;
