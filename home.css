@@ -1,39 +1,4 @@
-/* Base Format */
-body {
-  background: url('bckgrnd2.jpg') fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-}
-.logo {
-  width: 90px;
-  length: 90px;
-}
-.nav {
-  font-family: 'Montserrat';
-  font-weight: 300;
-  font-size: 20px;
-  display: block;
-  color: white;
-  text-align: center;
-}
-.nav ul {
-  list-style-type: none;
-}
-.nav li {
-  display: inline-block;
-  margin-right: 5%;
-  padding: 10px;
-}
-.nav a:link, a:visited, a:hover, a:active {
-  color: white;
-  text-decoration: none;
-}
-.nav li:hover {
-  color: black;
-}
-/* Base Format */
+
 .motto {
   color: white;
   text-align: center;
@@ -54,7 +19,7 @@ body {
 /* Start of About ME*/
 .AboutMe {
   width: 100%;
-  height: 540px;
+  height: 100vh;
   background-color: Dodgerblue;
   display: block;
   overflow: hidden;
@@ -79,7 +44,7 @@ body {
 /* Start of My Future */
 .MyFuture {
   width: 100%;
-  height: 800px;
+  height: 8100vh;
   background-color: white;
   display: block;
   overflow: hidden;
@@ -108,7 +73,7 @@ body {
 /* Start of My Past*/
 .MyPast {
   width: 100%;
-  height: 400px;
+  height: 100vh;
   background-color: Dodgerblue;
   margin: 0;
   display: block;
@@ -124,16 +89,4 @@ body {
   font-family: 'Exo 2';
   font-size: 20px;
   line-height: 1.4em;
-}
-
-@media only screen and (max-width: 1600px) and (min-width: 1024px){
-  .AboutMe {
-    height: 540px;
-  }
-  .MyFuture {
-    height: 700px;
-  }
-  .MyPast {
-    height: 540px;
-  }
 }
