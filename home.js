@@ -1,5 +1,6 @@
 $(document).ready(() => {
 
-$('.mottoandsaying').hide();
-$('.mottoandsaying').fadeIn(2500);
+  $('.mottoandsaying').hide();
+  $('.mottoandsaying').fadeIn(2000);
+
 });

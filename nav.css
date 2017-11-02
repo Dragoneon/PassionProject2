@@ -14,7 +14,6 @@ body {
   font-family: 'Montserrat';
   font-weight: 300;
   font-size: 20px;
-  display: block;
   color: white;
   text-align: center;
 }
@@ -31,6 +30,6 @@ body {
   text-decoration: none;
 }
 .nav li:hover {
-  color: grey;
+  color: black;
 }
 /* Base Format */
