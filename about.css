@@ -45,7 +45,7 @@ img {
   opacity: 1;
 }
 .Daniel {
-  background-image: url(sample.jpg);
+  background-image: url(sample1.png);
   background-position: center;
   margin-left: 5%;
   width: 35%;
@@ -58,7 +58,7 @@ img {
   box-shadow:0 0 16px navy;
 }
 .Joshua {
-  background-image: url(sample.jpg);
+  background-image: url(sample1.png);
   background-position: center;
   margin-right: 5%;
   width: 35%;
