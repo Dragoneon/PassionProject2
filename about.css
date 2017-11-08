@@ -32,9 +32,9 @@ img {
   transition: .75s;
 }
 .info {
+  padding: 4% 3% 4% 3%;
   text-align: center;
-  width: 500px;
-  height: 500px;
+  width: 95%;
   z-index: 1;
   opacity: 0;
   transition: 1.5s;

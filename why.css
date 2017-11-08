@@ -1,10 +1,10 @@
 body {
   background: url("https://itmeo.com/public/webgradients_png/019%20Malibu%20Beach.png");
   background-position: center;
+  margin: 0;
 }
 .op {
   margin-left: 10vw;
-  margin-top: 5%;
   width: 80vw;
   min-height: 50vh;
   text-align: center;
@@ -22,8 +22,6 @@ body {
   margin: 0;
   display: block;
   overflow: hidden;
-  color: black;
-  color: white;
 }
 #title2{
   margin: 4% 0 2% 5%;
@@ -48,25 +46,21 @@ body {
   border-radius: 15px;
   background-position: center;
   transition: .5s;
-}
-.boxes {
   opacity: 0.3;
-  color: black;
-  font-family: 'Lato';
-  font-size: 20px;
   transition: .75s;
   text-align: center;
   position: relative;
 }
 .boxes p {
-  font-family: 'Montserrat';
   background-color: white;
   opacity: 0;
   transition: 2s;
-  position: absolute;
-  top: 0;
+  position: relative;
+  bottom: 50;
   left: 0;
   cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 20px;
 }
 .boxes:hover p {
   opacity: 1;

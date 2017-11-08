@@ -1,29 +1,36 @@
 /* Base Format */
 body {
-  background: url('aircraft.png') fixed;
+  background: url("https://itmeo.com/public/webgradients_png/019%20Malibu%20Beach.png") fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0;
+}
+ul {
+  margin: none;
 }
 .logo {
   width: 90px;
   length: 90px;
 }
 .nav {
-  margin-top: 2%;
+  position: fixed;
+  width: 100%;
+  padding-top: 0.5%;
   font-family: 'Montserrat';
   font-weight: 300;
-  font-size: 1.5em;
-  text-align: center;
+  font-size: 20px;
+  transition: 0.5s;
+  z-index: 2;
 }
 .nav ul {
   list-style-type: none;
+  margin: 0 0 0 15%;
 }
 .nav li {
   display: inline-block;
-  margin-right: 5%;
-  padding: 10px;
+  margin-right: 3%;
+  padding: 15px;
 }
 .nav a:link, a:visited, a:hover, a:active {
   color: white;
@@ -31,5 +38,8 @@ body {
 }
 .nav li:hover {
   color: black;
+}
+.onScroll {
+  background-color: dodgerblue;
 }
 /* Base Format */
