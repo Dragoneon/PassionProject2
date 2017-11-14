@@ -1,4 +1,8 @@
 /* Base Format */
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('CaviarDreams.ttf');
+}
 body {
   background: url("https://itmeo.com/public/webgradients_png/019%20Malibu%20Beach.png") fixed;
   background-repeat: no-repeat;
@@ -8,29 +12,29 @@ body {
 }
 ul {
   margin: none;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
 }
 .logo {
   width: 90px;
   length: 90px;
 }
 .nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   position: fixed;
   width: 100%;
-  padding-top: 0.5%;
-  font-family: 'Montserrat';
-  font-weight: 300;
+  padding-top: 1%;
+  font-family: 'Saira Semi Condensed','CaviarDreams';
   font-size: 20px;
+  list-style-type: none;
   transition: 0.5s;
   z-index: 2;
 }
-.nav ul {
-  list-style-type: none;
-  margin: 0 0 0 15%;
-}
 .nav li {
-  display: inline-block;
-  margin-right: 3%;
   padding: 15px;
+  margin-bottom: 2%;
 }
 .nav a:link, a:visited, a:hover, a:active {
   color: white;
@@ -39,7 +43,8 @@ ul {
 .nav li:hover {
   color: black;
 }
-.onScroll {
-  background-color: dodgerblue;
+.onScroll1 {
+  background-color: deepskyblue;
+  padding-top: 0.5%;
 }
 /* Base Format */

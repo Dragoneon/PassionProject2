@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Ailerons Typeface';
+  src: url('Ailerons-Typeface.otf');
+}
+@font-face {
+    font-family: 'nidus_sansregular';
+    src: url('nidsans-webfont.eot');
+    src: url('nidsans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nidsans-webfont.woff2') format('woff2'),
+         url('nidsans-webfont.woff') format('woff'),
+         url('nidsans-webfont.ttf') format('truetype'),
+         url('nidsans-webfont.svg#nidus_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 #video-background {
 /*  making the video fullscreen  */
   position: fixed;
@@ -12,7 +27,7 @@
 .motto {
   text-align: center;
   font-size: 50px;
-  font-family: 'Saira Semi Condensed';
+  font-family: 'Ailerons Typeface' ,'Saira Semi Condensed';
   width: 60%;
   margin-left: 20%;
   margin-top: 15%;
@@ -20,10 +35,10 @@
 }
 .saying {
   text-align: center;
-  font-family: 'Permanent Marker';
+  font-family: 'Saira Semi Condensed';
   position: relative;
   bottom: 30px;
-  font-size: 27px;
+  font-size: 23px;
   color: white;
 }
 /* Start of About ME*/
@@ -35,19 +50,18 @@
   overflow: hidden;
 }
 #title {
-  font-family: 'Lato';
+  font-family: 'Iceland';
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 2%;
   margin-bottom: 4%;
 }
 #abtp {
-  font-family: 'Exo 2';
-  font-size: 24px;
+  font-family: 'nidus_sansregular';
+  font-size: 20px;
   font-weight: 400;
   text-align: center;
   line-height: 1.4em;
   width: 70%;
   margin-left: 15%;
 }
-/* Boxes on other stylesheet */
