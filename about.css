@@ -56,7 +56,7 @@ img {
 .Daniel:hover {
   background-size: 90%;
   box-shadow:0 0 16px navy;
-  opacity: 0.2;
+  opacity: 0.4;
   .info opacity: 1;
 }
 .Joshua {
@@ -73,6 +73,6 @@ img {
 .Joshua:hover {
   background-size: 90%;
   box-shadow:0 0 16px navy;
-  opacity: 0.2;
+  opacity: 0.4;
   .info opacity: 1;
 }
