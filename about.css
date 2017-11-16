@@ -48,7 +48,7 @@ img {
   background-image: url(dpic.jpg);
   background-position: center;
   margin-left: 5%;
-  width: 35%;
+  width: 80%;
   display: inline-block;
   border-radius: 30px;
   transition: .75s;
@@ -63,7 +63,7 @@ img {
   background-image: url(jpic.jpg);
   background-position: center;
   margin-right: 5%;
-  width: 35%;
+  width: 80%;
   display: inline-block;
   float: right;
   border: 5px white;
