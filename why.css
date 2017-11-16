@@ -3,6 +3,10 @@ body {
   background-position: center;
   margin: 0;
 }
+p {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
 .op {
   margin-left: 10vw;
   width: 80vw;
@@ -19,46 +23,49 @@ body {
 .MyPast {
   width: 100%;
   min-height: 150vh;
-  margin: 0;
-  display: block;
-  overflow: hidden;
 }
 #title2{
   margin: 4% 0 2% 5%;
   font-family: 'Lato';
   font-size: 20px;
 }
-#mpp{
-  margin: 0 5% 3% 5%;
+#mpp {
+  margin: 0% 10% 5%;
+  border-radius: 15px;
   font-family: 'Exo 2';
-  font-size: 20px;
   line-height: 1.4em;
 }
+#boxes-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
 .boxes {
-  list-style-type: none;
-  width: 26.6vw;
-  height: 55vh;
-  display: inline-block;
-  float: left;
-  margin-right: 2%;
-  margin-top: 2%;
+  width: 33vw;
+  height: 66vh;
+  margin-bottom: 2%;
   border-radius: 15px;
   background-position: center;
-  opacity: 0.3;
-  transition: .75s;
   text-align: center;
+  opacity: 0.2;
+  transition: .75s;
+  list-style-type: none;
 }
 .boxes p {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   background-color: white;
-  opacity: 0;
-  transition: 2s;
-  position: relative;
-  bottom: 20px;
-  left: 0;
-  cursor: pointer;
-  text-align: center;
   font-family: 'Montserrat';
   font-size: 20px;
+  opacity: 0;
+  transition: 2s;
+  cursor: pointer;
+  text-align: center;
 }
 .boxes:hover p {
   opacity: 1;
@@ -68,7 +75,6 @@ body {
 }
 .boxes1 {
   background-image: url(kitchen.png);
-  position: relative;
 }
 .boxes2 {
   background-image: url(Bedside.jpg);
@@ -77,11 +83,5 @@ body {
   background-image: url(Office.jpg);
 }
 .boxes4 {
-  background-image: url(hiking.jpg);
-}
-.boxes5 {
-  background-image: url(OutdoorVacation.jpg);
-}
-.boxes6 {
   background-image: url(Camping.jpg);
 }
