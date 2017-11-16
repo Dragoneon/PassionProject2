@@ -6,7 +6,8 @@
   min-height: 105vh;
   display: block;
   overflow: hidden;
-  background: linear-gradient(#03A3D2, white);
+  background: linear-gradient(#03A3D2, CORNFLOWERBLUE);
+  color: white;
 }
 .title {
   margin: 6% 0 4% 5%;

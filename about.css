@@ -14,11 +14,13 @@ h1 {
   display: inline-block;
   float: left;
   margin-left: 18%;
+  color: white;
 }
 #name2 {
   display: inline-block;
   float: right;
   margin-right: 18%;
+  color: white;
 }
 .infoimg {
   width: 100%;
@@ -33,44 +35,46 @@ img {
 }
 .info {
   padding: 4% 3% 4% 3%;
-  text-align: center;
   width: 95%;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  color: white;
   z-index: 1;
   opacity: 0;
   transition: 1.5s;
   cursor: pointer;
-  font-family: 'Open Sans';
 }
 .info:hover {
   opacity: 1;
 }
 .Daniel {
-  background-image: url(sample1.png);
+  background-image: url(dpic.jpg);
   background-position: center;
   margin-left: 5%;
   width: 35%;
+  height: 65%;
   display: inline-block;
   border-radius: 30px;
   transition: .75s;
 }
-.Daniel:hover:not(.info) {
-  background-size: 90%;
-  box-shadow:0 0 16px navy;
-  opacity: 0.2;
+.Daniel:hover {
+  background-image: url(dpich.jpg);
+  box-shadow:0 0 16px lightyellow;
 }
 .Joshua {
-  background-image: url(sample1.png);
+  background-image: url(jpic.jpg);
   background-position: center;
   margin-right: 5%;
   width: 35%;
+  height: 65%;
   display: inline-block;
   float: right;
-  border: 5px white;
   border-radius: 30px;
   transition: .75s;
 }
 .Joshua:hover {
-  background-size: 90%;
-  box-shadow:0 0 16px navy;
-  opacity: 0.2;
+  background-image: url(jpich.jpg);
+  box-shadow:0 0 16px lightyellow;
+
 }
