@@ -57,6 +57,7 @@ img {
   background-size: 90%;
   box-shadow:0 0 16px navy;
   opacity: 0.2;
+  .info opacity: 1;
 }
 .Joshua {
   background-image: url(jpic.jpg);
@@ -73,4 +74,5 @@ img {
   background-size: 90%;
   box-shadow:0 0 16px navy;
   opacity: 0.2;
+  .info opacity: 1;
 }
