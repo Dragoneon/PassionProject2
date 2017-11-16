@@ -57,6 +57,7 @@ img {
   display: inline-block;
   border-radius: 30px;
   transition: .75s;
+  background-size: 80%;
 }
 .Daniel:hover {
   background-image: url(dpich.jpg);
@@ -72,6 +73,7 @@ img {
   float: right;
   border-radius: 30px;
   transition: .75s;
+  background-size: 80%;
 }
 .Joshua:hover {
   background-image: url(jpich.jpg);
