@@ -50,6 +50,7 @@ body {
   transition: .75s;
   text-align: center;
   position: relative;
+  background-size: 100%;
 }
 .boxes p {
   background-color: white;
