@@ -6,7 +6,7 @@
 }
 h1 {
   margin-top: 5%;
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
   font-family: 'Saira Semi Condensed';
 }
@@ -52,31 +52,33 @@ img {
   background-image: url(dpic.jpg);
   background-position: center;
   margin-left: 5%;
-  width: 35%;
-  height: 65%;
+  width: 40%;
+  height: 80%;
   display: inline-block;
   border-radius: 30px;
   transition: .75s;
-  background-size: 80%;
+  background-size: 60%;
 }
 .Daniel:hover {
   background-image: url(dpich.jpg);
   box-shadow:0 0 16px lightyellow;
+  background-size: 60%;
 }
 .Joshua {
   background-image: url(jpic.jpg);
   background-position: center;
   margin-right: 5%;
-  width: 35%;
-  height: 65%;
+  width: 40%;
+  height: 80%;
   display: inline-block;
   float: right;
   border-radius: 30px;
   transition: .75s;
-  background-size: 80%;
+  background-size: 60%;
 }
 .Joshua:hover {
   background-image: url(jpich.jpg);
   box-shadow:0 0 16px lightyellow;
+  background-size: 60%;
 
 }
