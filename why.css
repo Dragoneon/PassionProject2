@@ -58,6 +58,7 @@ p {
   text-align: center;
   transition: .75s;
   cursor: pointer;
+  bacground-size: 100%;
 }
 .boxes p {
   border-top-left-radius: 15px;
