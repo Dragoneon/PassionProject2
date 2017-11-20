@@ -2,6 +2,7 @@ body {
   background: url("https://itmeo.com/public/webgradients_png/019%20Malibu%20Beach.png");
   background-position: center;
   margin: 0;
+  color: white;
 }
 p {
     -webkit-margin-before: 0em;
@@ -60,9 +61,10 @@ p {
   cursor: pointer;
 }
 .boxes p {
+  line-height: 24px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-color: gainsboro;
+  background-color: steelblue;
   font-family: 'Montserrat';
   font-size: 20px;
   opacity: 0;
@@ -77,14 +79,14 @@ p {
   opacity: 1;
 }
 .boxes1 {
-  background-image: url(Kitchen.jpg);
+  background-image: url(kitchend.jpg);
 }
 .boxes2 {
-  background-image: url(Bedside.jpg);
+  background-image: url(bedsided.jpg);
 }
 .boxes3 {
-  background-image: url(Office.jpg);
+  background-image: url(officed.jpg);
 }
 .boxes4 {
-  background-image: url(Camping.jpg);
+  background-image: url(Campingd.jpg);
 }

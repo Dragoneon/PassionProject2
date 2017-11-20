@@ -51,13 +51,13 @@ img {
 .Daniel {
   background-image: url(dpic.jpg);
   background-position: center;
+  background-repeat: no-repeat;
   margin-left: 5%;
   width: 35%;
   height: 65%;
   display: inline-block;
   border-radius: 30px;
   transition: .75s;
-  background-size: 80%;
 }
 .Daniel:hover {
   background-image: url(dpich.jpg);
@@ -66,6 +66,7 @@ img {
 .Joshua {
   background-image: url(jpic.jpg);
   background-position: center;
+  background-repeat: no-repeat;
   margin-right: 5%;
   width: 35%;
   height: 65%;
@@ -73,7 +74,6 @@ img {
   float: right;
   border-radius: 30px;
   transition: .75s;
-  background-size: 80%;
 }
 .Joshua:hover {
   background-image: url(jpich.jpg);

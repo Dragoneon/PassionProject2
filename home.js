@@ -2,7 +2,7 @@ $(document).ready(() => {
   $('.mottoandsaying').hide();
   $('.nav').hide();
 
-  $('.nav').slideDown(3500);
+  $('.nav').slideDown(2500);
   $('.mottoandsaying').fadeIn(2500);
 
   $('video').on('ended',function(){
