@@ -59,6 +59,7 @@ p {
   text-align: center;
   transition: .75s;
   cursor: pointer;
+  background-size: 100%;
 }
 .boxes p {
   line-height: 24px;
