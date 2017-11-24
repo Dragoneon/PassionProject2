@@ -4,7 +4,7 @@
   src: url('CaviarDreams.ttf');
 }
 body {
-  background: url("https://itmeo.com/public/webgradients_png/019%20Malibu%20Beach.png") fixed;
+  background: linear-gradient(to right, #009DFF, #00FAFF) fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
