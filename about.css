@@ -38,7 +38,7 @@ img {
   width: 95%;
   text-align: center;
   font-family: 'Open Sans';
-  font-size: 15px;
+  font-size: 14px;
   color: white;
   z-index: 1;
   opacity: 0;
@@ -53,8 +53,8 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 5%;
-  width: 35%;
-  height: 60%;
+  width: 40%;
+  height: 70%;
   display: inline-block;
   border-radius: 30px;
   transition: .75s;
@@ -70,8 +70,8 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 5%;
-  width: 35%;
-  height: 60%;
+  width: 40%;
+  height: 700%;
   display: inline-block;
   float: right;
   border-radius: 30px;
