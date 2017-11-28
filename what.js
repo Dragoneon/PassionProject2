@@ -8,7 +8,7 @@ $(document).ready(() => {
 
   $(window).on('scroll', function(){
     let win = $(window).scrollTop();
-    if (win > 100) {
+    if (win > 20) {
       $('.nav').addClass('onScroll1');
     } else {
       $('.nav').removeClass('onScroll1');
