@@ -1,5 +1,4 @@
 $(document).ready(() => {
-
   $('.nav').hide();
 
   $('.nav').slideDown(800);
@@ -12,5 +11,4 @@ $(document).ready(() => {
       $('.nav').removeClass('onScroll1');
     }
   });
-
 });
