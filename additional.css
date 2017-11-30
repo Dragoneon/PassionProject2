@@ -39,3 +39,7 @@
 #footer :first-child {
   margin-top: 2%;
 }
+.secret {
+  display: inline-block;
+  cursor: pointer;
+}

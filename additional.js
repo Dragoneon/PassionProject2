@@ -16,4 +16,7 @@ $(document).ready(() => {
     }
   });
 
+  $('.secret').on('click', function(){
+    alert('You have found a secret! Words of wisdom: BUY BITCOIN!');
+  });
 });
