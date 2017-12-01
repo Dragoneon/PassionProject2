@@ -1,13 +1,11 @@
 $(document).ready(() => {
+  var vid = document.getElementById("video-background");
+  vid.loop = true;
   $('.mottoandsaying').hide();
   $('.nav').hide();
 
-  $('.nav').slideDown(2500);
-  $('.mottoandsaying').fadeIn(2500);
-
-  $('video').on('ended',function(){
-    $('video').fadeOut(1000);
-});
+  $('.nav').slideDown(1500);
+  $('.mottoandsaying').fadeIn(1500);
 
 $(window).on('scroll', function(){
   let win = $(window).scrollTop();

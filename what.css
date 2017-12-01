@@ -1,7 +1,20 @@
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('CaviarDreams.ttf');
+}
+* {
+  color: white;
+}
 .pres-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+}
+.stuff {
+  margin-top: 5%;
+  background: linear-gradient(to right, #3ABFFE, #B3F6F9);
+  width: 90vw;
+  margin-left: 5vw;
 }
 #pres {
   margin-top: 5%;
@@ -10,4 +23,18 @@
   border: 8px solid black;
   border-radius: 20px;
   background-color: grey;
+}
+.title {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  text-align: center;
+}
+#instr {
+  font-family: 'CaviarDreams';
+  font-size: 18px;
+}
+#disclaimer {
+  font-family: 'Montserrat';
+  text-align: center;
+  font-size: 15px;
 }
