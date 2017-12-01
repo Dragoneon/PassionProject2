@@ -5,9 +5,8 @@ $(document).ready(() => {
   $('.nav').slideDown(2500);
   $('.mottoandsaying').fadeIn(2500);
 
-  $('video').on('ended',function(){
-    $('video').fadeOut(1000);
-});
+  var vid = document.getElementById("video-background");
+  vid.loop = true;
 
 $(window).on('scroll', function(){
   let win = $(window).scrollTop();
