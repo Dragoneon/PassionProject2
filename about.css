@@ -51,8 +51,8 @@ img {
   background-size:contain;
   background-position:center;
   margin-left: 5%;
-  width: 40%;
-  height: 80%;
+  width: 80vh;
+  height: 80vh;
   display: inline-block;
   border-radius: 30px;
   transition: .75s;
@@ -71,8 +71,8 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 5%;
-  width: 40%;
-  height: 80%;
+  width: 80vh;
+  height: 80vh;
   display: inline-block;
   float: right;
   border-radius: 30px;
