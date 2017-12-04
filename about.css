@@ -38,7 +38,7 @@ img {
   width: 95%;
   text-align: center;
   font-family: 'Open Sans';
-  font-size: 14px;
+  font-size: 20px;
   color: white;
   z-index: 1;
   opacity: 0;
@@ -73,7 +73,7 @@ img {
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-margin: 0 3vw 3vh 7vw;
+  margin: 0 3vw 3vh 7vw;
   width: 38vw;
   height: 38vw;
   display: inline-block;
@@ -91,4 +91,14 @@ margin: 0 3vw 3vh 7vw;
 }
 .Joshua:hover .info, .Joshua.hover .info {
   opacity: 1;
+}
+@media only screen and (max-width: 768px) {
+  .info {
+    font-size: 6px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .info {
+    font-size: 13px;
+  }
 }

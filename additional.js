@@ -1,13 +1,8 @@
 // Window load event used just in case window height is dependant upon images
 $(document).ready(() => {
-  $('#vid1').autoplay(false);
-  $('#vid1').load();
-
-  $('#vid1').hide();
   $('.nav').hide();
 
-  $('.nav').slideDown(800);
-  $('#vid1').fadeIn(1500);
+  $('.nav').slideDown(1000);
 
   $(window).on('scroll', function(){
     let win = $(window).scrollTop();
