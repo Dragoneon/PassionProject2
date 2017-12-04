@@ -12,8 +12,8 @@ body {
 }
 ul {
   margin: none;
--webkit-margin-before: 0em;
--webkit-margin-after: 0em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
 }
 .logo {
   width: 90px;
@@ -24,7 +24,7 @@ ul {
   flex-flow: row wrap;
   justify-content: space-around;
   position: fixed;
-  width: 100%;
+  width: 95%;
   padding-top: 1%;
   font-family: 'Saira Semi Condensed','CaviarDreams';
   font-size: 20px;
