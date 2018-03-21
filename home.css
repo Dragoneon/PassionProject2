@@ -65,3 +65,6 @@
   width: 70%;
   margin-left: 15%;
 }
+.module {
+  cursor: url('autocursor'), auto;	
+}
