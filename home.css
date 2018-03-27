@@ -66,4 +66,4 @@
   margin-left: 15%;
 }
 
-* {cursor: url(dragonlogo.ico) 2 2, auto;}
+* {cursor: url("dragonlogo.ico") 2 2, auto;}
