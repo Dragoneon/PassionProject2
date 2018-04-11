@@ -66,4 +66,5 @@
   margin-left: 15%;
 }
 
-html {cursor: url('Dragon_Logo_Official.ICO'), default;}
+html {cursor: url('dragon.png'), auto;}
+<body style="cursor: url('dragon.png'), default">
